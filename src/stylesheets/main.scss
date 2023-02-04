@@ -1,0 +1,94 @@
+/* Your styles go here */
+$primary: #417c7a;
+$secondary: #90c4a7;
+$success: #183d4d;
+$warning: #0c2a2c;
+$attention: #d73425;
+
+@import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.navLogo{
+    width: 10%;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+}
+
+.jumbotron{
+    background-image: url(../images/jumbo.jpg); 
+    background-size: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.form{
+    justify-content: center;
+}
+
+.shadows{
+    text-shadow: 4px 4px 10px black;
+}
+
+.largeText{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 90%;
+}
+
+
+.sWidth{
+    width: 75%;
+    border-radius: 10px;
+    color: white;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+a{
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.topPadding{
+    padding: 120px;
+}
+
+.smallerImage{
+    width: 25%;
+    height: auto;
+}
+
+.callToAction{
+     background-image: url(../images/call-to-action.jpg); 
+     background-size: 100%;
+     height: 100vh;
+     background-size: cover;
+}
+
+.btn-attention{
+    background-color: #d73425;
+    color: white;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
